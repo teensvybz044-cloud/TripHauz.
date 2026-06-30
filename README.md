@@ -1,1 +1,1 @@
-# TripHauz.
+https://github.com/YOUR-USERNAME/triphauz/settings/pages
