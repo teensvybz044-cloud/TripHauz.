@@ -1,1 +1,1 @@
-https://github.com/TripHauz./triphauz/settings/pages
+https://github.com/teensvybz044-cloud/triphauz/settings/pages
