@@ -1,1 +1,1 @@
-https://github.com/YOUR-USERNAME/triphauz/settings/pages
+https://github.com/TripHauz./triphauz/settings/pages
