@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TripHauz | Explore Together</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <header>
+    <div class="logo">TripHauz</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#trips">Trips</a>
+      <a href="#membership">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <h1>Travel. Experience. Connect.</h1>
+    <p>Join curated trips, meet new people, and explore unforgettable destinations.</p>
+    <button>Join TripHauz</button>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About TripHauz</h2>
+    <p>
+      TripHauz is a travel and experience community that organizes local and regional trips,
+      connecting old and new members through unforgettable experiences.
+    </p>
+  </section>
+
+  <!-- TRIPS -->
+  <section id="trips">
+    <h2>Upcoming Experiences</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Beach Escape</h3>
+        <p>Relax, games, music & networking.</p>
+      </div>
+
+      <div class="card">
+        <h3>City Tour</h3>
+        <p>Explore culture, food & hidden gems.</p>
+      </div>
+
+      <div class="card">
+        <h3>Night Experience</h3>
+        <p>Lights, music, cars & vibes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP -->
+  <section id="membership">
+    <h2>Member ID System</h2>
+    <p>
+      Every participant gets a unique TripHauz ID — distinguishing new members from returning explorers.
+    </p>
+
+    <div class="id-box">
+      <p>Example ID: THZ-2026-001</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: triphauz@gmail.com</p>
+    <p>WhatsApp: +233 XXX XXX XXX</p>
+  </section>
+
+  <footer>
+    <p>© 2026 TripHauz. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(120deg, #ffcc00, #ff6600);
+  color: black;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.id-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #222;
+  display: inline-block;
+  border: 1px solid #ffcc00;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
